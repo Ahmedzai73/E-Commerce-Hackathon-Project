@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import TopHeader from "./Components/TopHeader";
-
+import MainHeader from "./Components/MainHeader";
 
 
 
@@ -36,6 +36,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <TopHeader/>
+        <MainHeader/>
         {children}
 
       </body>

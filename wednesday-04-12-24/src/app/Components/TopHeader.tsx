@@ -1,16 +1,16 @@
-import { RiArrowDownSLine } from "react-icons/ri"; 
+import { RiArrowDownSLine } from "react-icons/ri";
 import { Poppins } from "next/font/google";
 
-// Fetch the Poppins font from Google Fonts.
+
 const Poppinsfont = Poppins({
-  weight: ["400", "700"], // Specify the font weights to load.
-  style: ["normal", "italic"], // Specify the font styles to load.
-  subsets: ["latin"], // Specify the font subsets to load.
-  display: "swap", // Specify the font display mode to load.
+  weight: ["400", "700"], 
+  style: ["normal", "italic"], 
+  subsets: ["latin"], 
+  display: "swap", 
 });
 
 export default function TopHeader() {
-  
+
 
   return (
     <div className={`container ${Poppinsfont.className} mx-auto`}>
